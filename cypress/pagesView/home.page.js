@@ -2,13 +2,7 @@
 class homePage {
 
   elements = {
-    adminRouterLinkButton: () => cy.get('[id$="adminRouterLinkButton"]'),
-    homeRouterLinkButton: () => cy.get('[id$="homeRouterLinkButton"]'),
-    tilesRouterLinkButton: () => cy.get('[id$="tilesRouterLinkButton"]'),
-    messagesRouterLinkButton: () => cy.get('[id$="messagesRouterLinkButton"]'),
-    profileRouterLinkButton: () => cy.get('[id$="profileRouterLinkButton"]'),
-    logoutButton: () => cy.get('[id$="logoutButton"]'),
-    loadMore: () => cy.contains('Load more')
+
   }
 
   clickVisibleButton = () => {
