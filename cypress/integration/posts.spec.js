@@ -1,5 +1,4 @@
 /// <reference types="Cypress" />
-// load post tiles json
 
 describe('try to login with valid inputs and log out', () => {
   it('should login a user with valids inputs, enter in homepage and then logout to landing page', () => {
